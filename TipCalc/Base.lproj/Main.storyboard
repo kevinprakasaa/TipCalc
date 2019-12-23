@@ -53,7 +53,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
-                                    <action selector="billField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="EK8-yE-Gq0"/>
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="T8y-ky-t9S"/>
                                 </connections>
                             </textField>
@@ -88,7 +87,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="gc1-Dv-dbw"/>
                     <connections>
-                        <outlet property="billField" destination="X1m-O3-Iut" id="AYn-rD-gsV"/>
+                        <outlet property="billField" destination="X1m-O3-Iut" id="rf0-cQ-Fse"/>
                         <outlet property="tipControl" destination="UHq-Cz-deA" id="044-gJ-dLG"/>
                         <outlet property="tipLabel" destination="RNU-5L-Xth" id="0aT-H0-xkT"/>
                         <outlet property="totalLabel" destination="bcx-dQ-76f" id="SjW-fS-Uw6"/>
