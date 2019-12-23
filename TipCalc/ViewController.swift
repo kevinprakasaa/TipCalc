@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTap(_ sender: Any) {
-        print("testing")
         view.endEditing(true)
     }
     
