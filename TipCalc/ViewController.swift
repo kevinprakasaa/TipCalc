@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     @IBAction func onTap(_ sender: Any) {
-        print("hello")
+        print("testing")
         view.endEditing(true)
     }
     
